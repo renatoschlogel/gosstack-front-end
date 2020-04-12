@@ -1,0 +1,25 @@
+{
+  "name": "gostack-front-end",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "https://github.com/renatoschlogel/gostack-front-end.git",
+  "author": "Renato W Schlogel <renato.s@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack-dev-server --mode development"
+  },
+  "dependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.1.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.10.3"
+  }
+}

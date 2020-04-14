@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 
+import './App.css';
+import imagem from './assets/certificado.png';
+
 import Header from "./components/Header";
 
 function App() {
@@ -13,7 +16,8 @@ console.log(projects);
     }
     return (<>
               <Header title="Projects"/> 
-              
+              <img width={100}src={imagem}/>
+
               <ul>
                 {projects.map(project => <li key={project}>{project}</li>)}
               </ul>
